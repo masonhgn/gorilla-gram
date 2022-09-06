@@ -1,0 +1,12 @@
+{% extends 'pages/base.html' %}
+
+
+{% block content %}
+<div class="card" style="width: 24rem; margin-top: 20px !important; border-style: solid;
+border-color: rgb(98, 98, 98); border-width:1px;">
+    <img src="{{ object.image.url }}" class="card-img-top" alt="image">
+    <div class="card-body">
+      <p class="card-text"><b>[{{object.author}}]</b>: {{ object.caption }}</p>
+    </div>
+  </div>
+{% endblock %}

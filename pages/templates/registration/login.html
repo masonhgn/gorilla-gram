@@ -1,0 +1,18 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+
+    <h2 style="text-align: center;">Login to Gorilla Gram</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button tyoe="submit">Login</button>
+
+    </form>
+
+
+
+
+{% endblock content %}

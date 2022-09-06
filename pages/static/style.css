@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto !important ;
+    font-family: 'Averia Sans Libre', cursive;
+}
+
+
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto !important ;
+}
+
+
+.col-sm {
+    max-width: 24%;
+}
+
+.container {
+    max-width: 24%;
+}
+
+
