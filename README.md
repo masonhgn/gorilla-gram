@@ -1,4 +1,4 @@
-# gorilla-gram
+# Gorilla Gram (like instagram, but for gorillas)
 
 Integrates a Django backend with a simple post model with image and caption fields. Users can create an account, post pictures, 
 and view other posts on their feed. Users can have their own profile associated with their own unique username, similar to Instagram. This project allowed me 
